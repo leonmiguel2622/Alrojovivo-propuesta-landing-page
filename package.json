@@ -1,0 +1,17 @@
+{
+  "name": "comidas-rapidas",
+  "version": "1.0.0",
+  "description": "Estático: `index.html` + `css/styles.css` + `js/main.js`. Ver con `python -m http.server 8000`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "animejs": "^4.5.0",
+    "gsap": "^3.15.0"
+  }
+}
