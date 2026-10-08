@@ -1,4 +1,5 @@
 /* Carta digital — comida rápida. Mobile-first, sin dependencias.
+   Autor: Miguel Ángel León Oliveros.
    Motion: ease-out fuerte, transform/opacity, <300ms. Hover solo con (hover:hover). */
 :root{
   --ease-out:cubic-bezier(.23,1,.32,1);

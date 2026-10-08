@@ -1,4 +1,5 @@
 // JS: nav, tabs, buscador, reveal, WhatsApp por plato, GSAP progresivo.
+// Autor: Miguel Ángel León Oliveros.
 (function(){
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var hasGsap = typeof window.gsap !== 'undefined';
