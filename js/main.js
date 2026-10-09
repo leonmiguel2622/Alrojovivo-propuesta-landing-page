@@ -214,6 +214,11 @@
     a.setAttribute('aria-label', 'Preguntar por ' + name + ' en WhatsApp');
     a.innerHTML = WA_ICON;
     d.appendChild(a);
+    var more = document.createElement('span');
+    more.className = 'dish-more';
+    more.setAttribute('aria-hidden', 'true');
+    more.textContent = 'Ver más →';
+    d.querySelector('.dish-text').appendChild(more);
   });
 
   // GSAP progresivo: entrada hero + flotación + nada más (el scroll ya lo cubre CSS)

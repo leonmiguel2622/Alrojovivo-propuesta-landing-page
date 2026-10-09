@@ -244,6 +244,8 @@ html[data-theme="dark"] .contact-btn.contact-primary{background:#2C1A0C}
 
 /* Botón por plato: discreto hasta interactuar */
 .dish-wa{opacity:.55}
+.dish-more{display:block;margin-top:.3rem;font-size:.8rem;font-weight:800;color:var(--brand-deep);letter-spacing:.02em}
+html[data-theme="dark"] .dish-more{color:var(--gold)}
 .dish:focus-within .dish-wa,.dish-wa:hover,.dish-wa:focus-visible{opacity:1}
 
 /* Marquesina mexicana */
