@@ -7,6 +7,7 @@ WhatsApp/tel 304 5473147, Maps https://maps.app.goo.gl/8ChjERa3VRt12WYe6, Instag
 
 ## Fotos (guía)
 Estructura: `img/imgplatillos/<categoria>-<plato>.jpg` · 800×800 JPG q72 (~100KB) · `loading="lazy"` + `width/height`.
+IMPORTANTE velocidad: antes de subir fotos nuevas, comprimir a máx 900px lado largo, JPG calidad 70 progresivo (cada foto debe pesar ~100-130KB, no MB).
 Patrón por plato: `<div class="ph ph-dish"><img src="img/menu/tacos-birria.jpg" width="800" height="800" alt="Tacos Birria" loading="lazy"></div>`.
 Destacados reutilizan la foto del plato (cover se encarga del recorte). El modal muestra la foto solo si existe; si no, mantiene la letra.
 Nombres sin tildes ni espacios. Lista completa: pedirla en el chat (“lista de imágenes”).

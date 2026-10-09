@@ -336,13 +336,6 @@
     document.getElementById('dm-next').addEventListener('click', function(){ dmRender(dmIndex + 1); });
     dlg.addEventListener('click', function(e){ if(e.target === dlg) dlg.close(); });
     dlg.addEventListener('close', function(){ if(lastFocus && lastFocus.focus){ try{ lastFocus.focus({preventScroll:true}); }catch(e){ lastFocus.focus(); } } });
-    document.getElementById('dm-share').addEventListener('click', function(){
-      var data = {title:'Al Rojo Vivo', text:dmDishName(dmList[dmIndex]) + ' — Al Rojo Vivo, Bucaramanga', url:location.href};
-      if(navigator.share){ navigator.share(data).catch(function(){}); }
-      else if(navigator.clipboard){
-        navigator.clipboard.writeText(data.text + ' ' + data.url).then(function(){ document.getElementById('dm-copied').hidden = false; }, function(){});
-      }
-    });
   }
 
   // Resalta la fila de hoy en horarios (Lun=0..Dom=6)
